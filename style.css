@@ -22,6 +22,16 @@ span {
   }
 }
 
+.contact {
+  background-color: #cfcfc2;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 1em;
+  width: 300px;
+}
+
 .footer {
   position: fixed;
   left: 0;
