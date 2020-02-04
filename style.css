@@ -6,7 +6,7 @@ body {
 
 h1 {
   font-size: 5em;
-  color: white;
+  color: #f5dede;
   text-transform: uppercase;
 }
 
@@ -27,6 +27,7 @@ span {
   bottom: 0;
   width: 100%;
   background-color: #b85252;
-  color: white;
+  color: #f5dede;
+  font-family: "tradegothiclt-bold", sans-serif;
   text-align: center;
 }
