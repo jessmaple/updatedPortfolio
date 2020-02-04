@@ -24,8 +24,9 @@ span {
 }
 
 .contact {
-  background-color: #cfcfc2;
+  background-color: #dc8c8c;
   position: absolute;
+  vertical-align: baseline;
   border-radius: 10px;
   height: 50px;
   margin-top: 0.5em;
