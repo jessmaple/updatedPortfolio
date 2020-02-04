@@ -58,8 +58,9 @@ div {
   float: left;
 }
 
-.gmail{
-    position: relative;
+.gmail {
+  position: relative;
+  float: left;
 }
 
 .footer {
