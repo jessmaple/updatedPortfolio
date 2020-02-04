@@ -51,6 +51,7 @@ div {
 
 .linkedin {
   position: relative;
+  float: left;
 }
 
 .github {
