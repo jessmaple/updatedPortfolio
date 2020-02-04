@@ -67,6 +67,10 @@ div {
   padding: 0.5em;
 }
 
+.projects {
+  position: relative;
+}
+
 .footer {
   position: fixed;
   left: 0;
