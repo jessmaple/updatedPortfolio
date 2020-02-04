@@ -58,11 +58,13 @@ div {
 .github {
   position: relative;
   float: left;
+  padding: 0.5em;
 }
 
 .gmail {
   position: relative;
   float: left;
+  padding: 0.5em;
 }
 
 .footer {
