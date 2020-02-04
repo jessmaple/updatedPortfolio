@@ -1,5 +1,5 @@
 body {
-  background-color: indianred;
+  background-color: #cd5c5c;
   height: 100%;
   font-family: "tradegothiclt-bold", sans-serif;
 }
@@ -19,4 +19,14 @@ span {
   50% {
     border-color: transparent;
   }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b85252;
+  color: white;
+  text-align: center;
 }
