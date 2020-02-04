@@ -5,6 +5,7 @@ body {
 }
 
 h1 {
+  text-align: center;
   font-size: 5em;
   color: #f5dede;
   text-transform: uppercase;
