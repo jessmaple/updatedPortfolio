@@ -24,16 +24,16 @@ span {
 }
 
 div {
-    display: block;
+  display: block;
 }
 
 .contact {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 .contact-box {
@@ -49,10 +49,18 @@ div {
   width: 300px;
 }
 
-.linkedin{
-    
+.linkedin {
+  position: relative;
 }
 
+.github {
+  position: relative;
+  float: left;
+}
+
+.gmail{
+    position: relative;
+}
 
 .footer {
   position: fixed;
