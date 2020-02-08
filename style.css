@@ -1,5 +1,5 @@
 body {
-  background-color: #d26c6c;
+  background-color: #e19d9d;
   height: 100%;
   font-family: "tradegothiclt-bold", sans-serif;
 }
@@ -7,7 +7,7 @@ body {
 h1 {
   padding-top: 10px;
   text-align: center;
-  font-size: 50px;
+  font-size: 500px;
   color: #f5dede;
   text-transform: uppercase;
 }
@@ -121,7 +121,7 @@ a.pure-button-primary {
   font-family: "tradegothiclt-bold", sans-serif;
 }
 .home-menu {
-  background: #b85252;
+  background: #e6adad;
 }
 .pure-menu.pure-menu-fixed {
   /* Fixed menus normally have a border at the bottom. */
@@ -152,7 +152,7 @@ a.pure-button-primary {
 }
 
 .splash-container {
-  background: #cd5c5c;
+  background: #e19d9d;
   z-index: 1;
   overflow: hidden;
   width: 100%;
@@ -174,6 +174,7 @@ a.pure-button-primary {
   right: 0;
   text-align: center;
   text-transform: uppercase;
+  font-size: 2em;
 }
 
 /* This is the main heading that appears on the blue section */
@@ -206,7 +207,7 @@ a.pure-button-primary {
   width: 100%;
   min-height: 12%;
   z-index: 2;
-  background: #d26c6c;
+  background: #e19d9d;
 }
 
 /* We want to give the content area some more padding */
@@ -219,7 +220,7 @@ a.pure-button-primary {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin: 2em 0 1em;
+  margin: 4em 0 1em;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -237,20 +238,8 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-  background: #d77c7c
+  background: ##d77c7c;
   color: #aaa;
-}
-
-/* This is the class used for the footer */
-.footer {
-  background: #b85252;
-  position: fixed;
-  text-align: center;
-  color:#f5dede;
-  bottom: 0;
-  width: 100%;
-  font-family: "tradegothiclt-bold", sans-serif;
-  text-transform: uppercase;
 }
 
 /*
@@ -274,9 +263,9 @@ a.pure-button-primary {
   }
 
   /* We increase the height of the splash-container */
-  /*    .splash-container {
-        height: 500px;
-    }*/
+  .splash-container {
+    height: 500px;
+  }
 
   /* We decrease the width of the .splash, since we have more width
     to work with */
