@@ -1,5 +1,5 @@
 body {
-  background-color: #cd5c5c;
+  background-color: #d26c6c;
   height: 100%;
   font-family: "tradegothiclt-bold", sans-serif;
 }
@@ -206,7 +206,7 @@ a.pure-button-primary {
   width: 100%;
   min-height: 12%;
   z-index: 2;
-  background: white;
+  background: #d26c6c;
 }
 
 /* We want to give the content area some more padding */
@@ -237,7 +237,7 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-  background: #2d3e50;
+  background: #d77c7c
   color: #aaa;
 }
 
