@@ -156,7 +156,7 @@ a.pure-button-primary {
   z-index: 1;
   overflow: hidden;
   width: 100%;
-  height: 88%;
+  height: 100%;
   top: 0;
   left: 0;
   position: fixed !important;
@@ -164,8 +164,8 @@ a.pure-button-primary {
 
 .splash {
   /* absolute center .splash within .splash-container */
-  width: 80%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   margin: auto;
   position: absolute;
   top: 100px;
