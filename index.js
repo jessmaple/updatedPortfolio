@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(event) {
   // array with texts to type in typewriter
   var dataText = [
-    "Jessica Maple."
+    "Jessica Maple.",
     "Software Engineer.",
     "Located in Atlanta,GA",
     "Jessica Maple."
