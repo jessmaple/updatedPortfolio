@@ -5,11 +5,17 @@ body {
 }
 
 h1 {
-  padding-top: 10git 0px;
+  padding-top: 150px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 150px;
+  line-height: 100%;
+  width: 100%;
   text-align: center;
   font-size: 500px;
   color: indianred;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 span {
@@ -18,7 +24,7 @@ span {
 }
 
 @keyframes caret {
-  50% {
+  100% {
     border-color: transparent;
   }
 }
@@ -187,13 +193,6 @@ a.pure-button-primary {
   font-weight: 100;
   border-radius: 5px;
   line-height: 1em;
-}
-
-/* This is the subheading that appears on the blue section */
-.splash-subhead {
-  color: white;
-  letter-spacing: 0.05em;
-  opacity: 0.8;
 }
 
 /*
