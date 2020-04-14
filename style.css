@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+}
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+  
+}
