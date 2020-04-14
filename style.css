@@ -12,7 +12,7 @@ h1 {
   line-height: 100%;
   width: 100%;
   text-align: center;
-  font-size: 500px;
+  font-size: 550px;
   color: indianred;
   text-transform: uppercase;
   display: inline-block;
@@ -141,6 +141,7 @@ a.pure-button-primary {
   font-weight: 400;
   font-size: 120%;
   font-family: "tradegothiclt-bold", sans-serif;
+  display: none;
 }
 
 .home-menu .pure-menu-selected a {
