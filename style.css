@@ -9,5 +9,12 @@ body{
 .wrapper{
   width: 1170px;
   margin: 0 auto;
-  
+
+}
+header{
+  height: 100;
+  background: #262626;
+  width: 100px;
+  z-index: 12;
+  position: fixed;
 }
