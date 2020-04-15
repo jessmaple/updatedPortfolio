@@ -1,20 +1,31 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   text-align: center;
 }
-.wrapper{
+.wrapper {
   width: 1170px;
   margin: 0 auto;
-
 }
-header{
+header {
   height: 100;
   background: #262626;
   width: 100px;
   z-index: 12;
   position: fixed;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
