@@ -4,3 +4,22 @@
   color: #000000;
 }
 
+
+
+
+h1 {
+  font-size: 5em;
+  color: white;
+  text-transform: uppercase;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
