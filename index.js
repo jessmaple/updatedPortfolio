@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   var dataText = [
     "Hi, my name is Jessica Maple",
     "Full Stack Developer",
-    "From Atlanta",
+    "From Atlanta, Georgia",
     "Jessica Maple",
   ];
 
