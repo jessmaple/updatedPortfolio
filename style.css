@@ -1,16 +1,11 @@
-.navbar-brand {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  color: #000000;
-}
 
-
-
-
+/* typing animation */
 h1 {
   font-size: 5em;
-  color: white;
+  color: #000000;
   text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
 }
 
 span {
@@ -23,3 +18,17 @@ span {
     border-color: transparent;
   }
 }
+
+/* Nav bar styling */
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #000000;
+}
+
+.banner {
+  width: 1170px;
+  margin: 0 auto;
+
+}
+
