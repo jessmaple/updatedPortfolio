@@ -32,5 +32,16 @@ span {
   height: 500px;
   position: fixed;
   top: 250px;
+  z-index: 12;
 }
 
+/* LessTraveled Link */
+
+.project1 {
+ width: 100%;
+ height: 500px;
+ position: fixed;
+ top: 250px;
+
+ 'aws '
+}
