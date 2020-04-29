@@ -4,11 +4,13 @@ h1 {
   color: #ffffff;
   text-transform: uppercase;
   height: 100%;
-  font-family: 'tradegothiclt-bold', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   position: absolute;
   text-align: center;
   top: 25%;
   left: 25%;
+  right: 25%;
   z-index: 12;
 }
 
