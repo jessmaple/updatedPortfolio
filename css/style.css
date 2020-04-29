@@ -29,3 +29,16 @@ h5 {
   font-family: font-family: 'Raleway', sans-serif;
 }
 
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.jumbotron{
+
+  text-align: center;
+}
+
+.container-2{
+  width: 100%;
+}
