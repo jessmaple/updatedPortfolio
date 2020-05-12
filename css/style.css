@@ -1,37 +1,38 @@
-body {
-  margin: 0;
-
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.banner-slide{
-    border-top: 0;
-    top: 0;
-    bottom: 0;
-    height: 100vh;
-    background: #D38312;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.banner-slide {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: #d38312; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #a83279,
+    #d38312
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #a83279,
+    #d38312
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 h1 {
   font-size: 5em;
   color: #ffffff;
   text-transform: uppercase;
-  height: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
-  position: absolute;
-  text-align: center;
-  top: 25%;
-  left: 25%;
-  right: 25%;
-  z-index: 12;
 }
 
+.title {
+  text-align: center;
+}
 span {
-  border-right: .05em solid;
+  border-right: 0.05em solid;
   animation: caret 1s steps(1) infinite;
 }
 
@@ -42,19 +43,35 @@ span {
 }
 
 h5 {
-  font-family: font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-h2{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-}
-
-.jumbotron{
-
+.jumbotron {
   text-align: center;
 }
 
-.container-2{
+.container-2 {
   width: 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+}
+ 
+ul#menu li {
+  display:inline;
+  position: absolute;
+  z-index: 4;
+  padding-left: 15px;
 }
