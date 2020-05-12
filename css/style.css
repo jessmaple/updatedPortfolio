@@ -3,22 +3,23 @@
   padding: 0px;
 }
 
-.banner-slide {
-  height: 100vh;
+body{
+  height: 200vh;
   width: 100%;
   position: relative;
-  background: #d38312; /* fallback for old browsers */
+  background: #d38312;
   background: -webkit-linear-gradient(
     to left,
     #a83279,
     #d38312
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to left,
     #a83279,
     #d38312
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  );
 }
+
 
 h1 {
   font-size: 5em;
@@ -26,11 +27,18 @@ h1 {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25%;
 }
 
 .title {
   text-align: center;
+
 }
+
 span {
   border-right: 0.05em solid;
   animation: caret 1s steps(1) infinite;
@@ -84,3 +92,6 @@ ul#menu li {
 }
 
 
+.col-lg-4 {
+  padding-top: 30%;
+}
