@@ -70,8 +70,17 @@ h5 {
 }
  
 ul#menu li {
+
   display:inline;
   position: absolute;
   z-index: 4;
   padding-left: 15px;
 }
+  
+
+.col-sm-12 {
+  width: 100%;
+  padding-top: 20%;
+}
+
+
