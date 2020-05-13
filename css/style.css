@@ -3,27 +3,37 @@
   padding: 0px;
 }
 
-body{
+body {
   position: relative;
   background: linear-gradient(346deg, #a83279, #d38312, #ce86d9, #d276ad);
-background-size: 800% 800%;
+  background-size: 800% 800%;
 
--webkit-animation: background 10s ease infinite;
--moz-animation: background 10s ease infinite;
-animation: background 10s ease infinite;
-
+  -webkit-animation: background 10s ease infinite;
+  -moz-animation: background 10s ease infinite;
+  animation: background 10s ease infinite;
 }
 @-moz-keyframes background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 @keyframes background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-  
 
 h1 {
   font-size: 3em;
@@ -43,7 +53,7 @@ h1 {
 }
 
 .content {
-   margin-top: 30%;
+  margin-top: 30%;
 }
 h5 {
   font-family: "Raleway", sans-serif;
@@ -86,4 +96,37 @@ ul#menu li {
 
 .col-lg-4 {
   padding-top: 30%;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+/* Navbar links */
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
