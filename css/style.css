@@ -42,7 +42,9 @@ h1 {
   text-align: center;
 }
 
-
+.content {
+   margin-top: 30%;
+}
 h5 {
   font-family: "Raleway", sans-serif;
 }
