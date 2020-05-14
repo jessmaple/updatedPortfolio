@@ -98,36 +98,47 @@ ul#menu li {
   padding-top: 30%;
 }
 
-#navbar {
-  overflow: hidden;
-  background-color: transparent;
+.logo {
+  float: left;
 }
+/* ~~ Top Navigation Bar ~~ */
 
-/* Navbar links */
-#navbar a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: right;
-  padding: 14px;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-}
-
-/* Page content */
-.content {
-  padding: 16px;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
+#navigation-container {
   width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
+.navigation-bar {
+  background-color: transparent;
+  width: 100%;
+  text-align: right;
 }
 
+.navigation-bar img{
+float:left;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: white;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+}
