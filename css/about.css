@@ -43,7 +43,7 @@
 
 h1 {
     font-size: 3em;
-    color: #ffffff;
+    color: black;
     text-transform: lowercase;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -65,4 +65,16 @@ h1 {
       opacity: 1;
       transform: rotateX(0);
     }
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    opacity: 0.5;
   }
