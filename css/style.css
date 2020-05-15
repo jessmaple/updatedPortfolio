@@ -63,7 +63,7 @@ h1 {
 
 .title {
   text-align: center;
-  
+  animation: transitionIn 0.75s;
 }
 
 .content {
