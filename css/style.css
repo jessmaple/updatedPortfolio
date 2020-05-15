@@ -46,13 +46,13 @@ h1 {
   justify-content: left;
   text-align: left;
   margin-top: 25%;
-  
+  animation: transitionin 3s;
 }
 
-@keyframes transitionin{
+@keyframes transitionin {
   from {
-     opacity: 0;
-     transform: rotateX(-10deg);
+    opacity: 0;
+    transform: rotateX(-10deg);
   }
 
   to {
@@ -63,7 +63,6 @@ h1 {
 
 .title {
   text-align: center;
-  animation: transitionIn 0.75s;
 }
 
 .content {
@@ -163,4 +162,3 @@ ul#menu li {
   display: flex;
   margin-left: 20%;
 }
-
