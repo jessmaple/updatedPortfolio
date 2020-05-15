@@ -46,10 +46,22 @@ h1 {
   justify-content: left;
   text-align: left;
   margin-top: 25%;
+  
+}
+
+@keyframes transitionin{
+  from {
+
+  }
+
+  to {
+    
+  }
 }
 
 .title {
   text-align: center;
+  
 }
 
 .content {
