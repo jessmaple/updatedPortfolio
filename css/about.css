@@ -1,5 +1,9 @@
 /* ~~ Top Navigation Bar ~~ */
 
+html {
+    height: 100vh;
+}
+
 #navigation-container {
   width: 100%;
 }
