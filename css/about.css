@@ -103,6 +103,11 @@ h1 {
     animation: transitionin 4s;
   }
 
-  .title {
-      top: 20%;
+  .container {
+      top: 200px;
+  }
+
+  h1 b {
+      font-weight: 300;
+      font-size: 0.5em;
   }
