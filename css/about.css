@@ -1,7 +1,7 @@
 /* ~~ Top Navigation Bar ~~ */
 
 html {
-    height: 100vh;
+  height: 100vh;
 }
 
 #navigation-container {
@@ -44,74 +44,73 @@ html {
   padding: 5px 15px;
 }
 
-
 h1 {
-    font-size: 3em;
-    color: black;
-    text-transform: lowercase;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    text-align: left;
-    margin-top: 25%;
-    animation: transitionin 3s;
-  }
-  
-  @keyframes transitionin {
-    from {
-      opacity: 0;
-      transform: rotateX(-10deg);
-    }
-  
-    to {
-      opacity: 1;
-      transform: rotateX(0);
-    }
+  font-size: 3em;
+  color: black;
+  text-transform: lowercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  margin-top: 25%;
+  animation: transitionin 3s;
+}
+
+@keyframes transitionin {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
   }
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: transparent;
-    color: black;
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    opacity: 0.5;
+  to {
+    opacity: 1;
+    transform: rotateX(0);
   }
+}
 
-  h3 {
-    color: black;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    text-align: left;
-    margin-top: 30%;
-    top: 30%;
-    animation: transitionin 4s;
-  }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  opacity: 0.5;
+}
 
-  h4 {
-    color: black;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    text-align: left;
-    animation: transitionin 4s;
-  }
+h3 {
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  margin-top: 30%;
+  top: 30%;
+  animation: transitionin 4s;
+}
 
-  .container {
-      top: 200px;
-  }
+h4 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  animation: transitionin 4s;
+}
 
-  h1 b {
-      font-weight: 300;
-      font-size: 0.5em;
-  }
+.container {
+  top: 200px;
+}
+
+h1 b {
+  font-weight: 300;
+  font-size: 0.5em;
+}
