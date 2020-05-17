@@ -85,11 +85,10 @@ h5 {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: orange;
+  background-color: transparent;
   color: white;
   text-align: center;
   font-family: "Raleway", sans-serif;
-  opacity: 0.5;
 }
 
 .content {
