@@ -114,3 +114,11 @@ h1 b {
   font-weight: 300;
   font-size: 0.5em;
 }
+
+.content-area {
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background-color: ##e7dbcc;
+    height: 1400px;
+}
