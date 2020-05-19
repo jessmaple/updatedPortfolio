@@ -108,6 +108,7 @@ h4 {
 
 .container {
   top: 200px;
+  width: 100%;
 }
 
 h1 b {
@@ -118,8 +119,10 @@ h1 b {
 .content-area {
     width: 100%;
     position: relative;
-    top: 300px;
+    top: 150px;
     background-color: #e7dbcc;
     height: 800px;
     z-index: 12;
 }
+
+]
