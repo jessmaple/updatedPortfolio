@@ -118,7 +118,8 @@ h1 b {
 .content-area {
     width: 100%;
     position: relative;
-    top: 450px;
-    background-color: ##e7dbcc;
-    height: 1400px;
+    top: 300px;
+    background-color: #e7dbcc;
+    height: 800px;
+    z-index: 12;
 }
