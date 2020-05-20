@@ -47,7 +47,7 @@ html, body {
     background: yellow;
   }
   .blocks:nth-child(5) {
-    background: black;
+    background-image: url();
   }
   .blocks:nth-child(6) {
     background: indianred;
