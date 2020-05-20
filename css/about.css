@@ -88,7 +88,7 @@ h4 {
 .container {
   top: 200px;
   width: 100%;
-  height: 40px ;
+  height: 50px;
 }
 
 h1 b {
@@ -125,6 +125,7 @@ h1 b {
 
 p {
     line-height: 1.6em;
+    animation: transitionin 3s;
 }
 
 
@@ -257,13 +258,19 @@ p {
 
  li b {
      color: #585671;
+     animation: transitionin 3s;
  } 
   
   
   u a{
      color: indianred;
+
  }
-  
+ 
+ ul {
+    animation: transitionin 3s;
+ }
+
  a {
      color: indianred;
  }
