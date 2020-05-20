@@ -49,6 +49,9 @@ html, body {
   .blocks:nth-child(5) {
     background: black;
   }
+  .blocks:nth-child(6) {
+    background: indianred;
+  }
 
   #navigation-container {
     width: 100%;
