@@ -266,7 +266,9 @@ p {
     padding: 5px 15px;
   }
 
-  
+ li b {
+     color: #585671;
+ } 
   
   
   
