@@ -88,6 +88,7 @@ h4 {
 .container {
   top: 200px;
   width: 100%;
+  height: 40px ;
 }
 
 h1 b {
@@ -118,6 +119,7 @@ h1 b {
     letter-spacing: 0.25em;
     text-transform: uppercase;
     font-weight: 600;
+    font-family: "Poppins", sans-serif;
 
 }
 
@@ -155,7 +157,7 @@ p {
 .information-head {
     color: black;
     font-weight: 500;
-    
+
 }
   
   @keyframes transitionin {
