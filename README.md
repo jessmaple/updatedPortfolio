@@ -1,4 +1,14 @@
 # updatedPortfolio
-This application built with HTML5, CSS, pure CSS, Less, & Pug
+
+updatedPortfolio is an browser application that showcases some of my projects
+
+## Technology
+
+- HTML5 
+- CSS
+- purecss 
+- Less
+- Pug
+- node.js
 
 visit the deployed project at: www.jessicamaple.com
