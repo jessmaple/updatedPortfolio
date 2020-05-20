@@ -130,12 +130,12 @@ p {
  * -- Layout Styles --
  */
 .l-content {
-    margin: 0 auto;
+    margin: 1;
 }
 
 .l-box {
     top: 25%;
-    padding: 1em 2em;
+    padding: 2em 2em;
 }
 
 
@@ -151,24 +151,11 @@ p {
 
 
 
-/*
- * -- PRICING TABLE BUTTON --
- * Styles for the "Choose" button at the bottom of a pricing table.
- * This inherits from Pure Button.
- */
-.button-choose {
-    border: 1px solid #ccc;
-    background: #fff;
-    color: #333;
-    border-radius: 2em;
-    font-weight: bold;
-    position: relative;
-    bottom: -1.5em;
-}
 
 .information-head {
     color: black;
     font-weight: 500;
+    
 }
   
   @keyframes transitionin {
@@ -275,4 +262,6 @@ p {
      color: indianred;
  }
   
- 
+ a {
+     color: indianred;
+ }
