@@ -35,7 +35,7 @@ html, body {
   }
   
   .blocks:nth-child(1) {
-    background: green;
+    background-image: green;
   }
   .blocks:nth-child(2) {
     background: blue;
@@ -126,4 +126,5 @@ html, body {
       transform: rotateX(0);
     }
   }
+  
   
