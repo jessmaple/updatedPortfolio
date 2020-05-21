@@ -98,5 +98,32 @@ html, body {
   }
 
   .container {
-      height: 700px;
+      height: 200px;
   }
+
+  h1 {
+    font-size: 2.5em;
+    color: black;
+    text-transform: lowercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    margin-top: 5%;
+    animation: transitionin 3s;
+  }
+  
+  @keyframes transitionin {
+    from {
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+  
+    to {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+  
