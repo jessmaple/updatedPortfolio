@@ -35,22 +35,22 @@ html, body {
   }
   
   .blocks:nth-child(1) {
-    background-image: green;
+    background: white;
   }
   .blocks:nth-child(2) {
-    background: blue;
+    background: white;
   }
   .blocks:nth-child(3) {
-    background: pink;
+    background: white;
   }
   .blocks:nth-child(4) {
-    background: yellow;
+    background: white;
   }
   .blocks:nth-child(5) {
-    background: black;
+    background: white;
   }
   .blocks:nth-child(6) {
-    background: indianred;
+    background: white;
   }
 
  
