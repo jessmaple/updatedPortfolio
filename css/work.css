@@ -53,6 +53,7 @@ html, body {
     background: indianred;
   }
 
+ 
 
   /* Top Navigation */
   #navigation-container {
@@ -94,4 +95,8 @@ html, body {
     text-decoration: none;
     line-height: 70px;
     padding: 5px 15px;
+  }
+
+  .container {
+      height: 700px;
   }
