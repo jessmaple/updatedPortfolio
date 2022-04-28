@@ -283,6 +283,39 @@ nav #menu li a:hover {
 }
 
 /*--------------- projects section --------------- */
+.noop {    
+box-sizing border-box
+display block
+height 209.969px
+padding-bottom 2.8px
+padding-left 2.8px
+padding-right 2.8px
+padding-top 2.8px
+width 1522.2px
+
+}
+
+
+-sizing border-box
+color rgb(12, 169, 0)
+display block
+font-family Courier, "Courier New", monospace, Courier, Icons
+font-size 4.16px
+font-style normal
+font-weight 400
+height 209.969px
+line-height 5.408px
+overflow-wrap break-word
+padding-bottom 2.8px
+padding-left 2.8px
+padding-right 2.8px
+padding-top 2.8px
+text-align left
+text-size-adjust 100%
+width 1522.2px
+-webkit-font-smoothing antialiased
+
+
 h6 {
       text-align: center;
 }
